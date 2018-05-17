@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>devops</groupId>
   <artifactId>TRNG</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
 
   <name>TRNG</name>
   <!-- FIXME change it to the project's website -->
@@ -65,8 +64,7 @@
         <version>2.5.3</version>
       </plugin>
 		  <!--plugin>
-        < NOTE: We don't need a groupId specification because the group is
-             org.apache.maven.plugins ...which is assumed by default.
+        < NOTE: We don't need a groupId specification because the group is org.apache.maven.plugins ...which is assumed by default.
          
         <artifactId>maven-assembly-plugin</artifactId>
         <version>3.1.0</version>
@@ -81,6 +79,7 @@
 	  </build>
 	  <scm>
     <developerConnection>scm:git:https://github.com/ranjithkum/maven_git.git</developerConnection>
+    <tag>Maven-1.0</tag>
   </scm>
 	  <distributionManagement>
    <snapshotRepository>
